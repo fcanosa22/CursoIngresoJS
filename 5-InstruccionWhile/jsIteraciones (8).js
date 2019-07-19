@@ -27,11 +27,11 @@ function mostrar()
 		else
 		{
 			respuesta="no";
-		}
+    }
 
 
-document.getElementById('suma').value=positivo;
-document.getElementById('producto').value=negativo;
+  document.getElementById('suma').value=positivo;
+  document.getElementById('producto').value=negativo;
 
 }
 
