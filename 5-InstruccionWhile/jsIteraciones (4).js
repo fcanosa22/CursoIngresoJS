@@ -3,6 +3,7 @@ function mostrar()
 
  var num;
 
+
   do{
 
  num = prompt("Ingrese numero");
@@ -16,7 +17,6 @@ alert("Este numero no esta entre 0 y 9");
  }while(num<0 || num>9);
 
   document.getElementById("Numero").value = num;
-
 
 
 

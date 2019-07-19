@@ -1,9 +1,22 @@
 function mostrar()
 {
 
-	var contador=0;
-	var acumulador=0;
+  var contador=0;
+  var acumulador = 0
+  var num
 
+  while(contador<5){
+    contador++
+    do{
+
+    num= prompt("Ingrese 5 numeros")
+    num= parseInt(num);
+
+    acumulador = acumulador + num;
+ }while(isNaN(num));
+
+
+  }
 
 
 document.getElementById('suma').value=acumulador;
