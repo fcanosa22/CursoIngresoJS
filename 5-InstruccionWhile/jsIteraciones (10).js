@@ -1,5 +1,63 @@
 function mostrar()
 {
+  var numeros;
+  var negativos = 0;
+  var respuesta = "si";
+  var contNeg = 0;
+  var positivos = 0
+  var contPos = 0;
+  var contCeros = 0;
+  var contPares = 0;
+  var promedioPos= 0;
+
+  do{
+    do{
+
+
+    numeros = prompt("Ingrese numeros");
+    numeros = parseInt(numeros);
+
+    while(isNaN(numeros)); // Valida que sean numeros (IMPORTANTE)
+
+    if(numeros<0){
+      negativos = numeros + negativos
+      contNeg++
+
+    }else if(num<0){
+      positivos = numeros + positivos
+      contPos++
+
+    }else{
+      contCeros++
+     }
+
+     if(num% 2==0){
+       contPares++
+     }
+     respuesta = confirm("Quiere continuar?");
+
+    }while(respuesta);
+
+    if(contPos==0){
+      promedioPos =
+
+    }else{
+      promedioPos = contPos++ / positivos;
+    }
+  } // FALTA TERMINAR!!
+
+  document.write("Suma de negativos: " +negativos);
+  document.write("<br>Suma de positivos: " +positivos);
+
+
+
+
+
+}//FIN DE LA FUNCIÓN
+
+
+// ESTA FORMA ES MAS CORTA, FALTA VALIDAD SI ES NAN Y VERIFICAR!
+function mostrar()
 
   var respuesta="si";
 	var negativos = 0;
@@ -43,4 +101,4 @@ function mostrar()
 
 
 
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN]
