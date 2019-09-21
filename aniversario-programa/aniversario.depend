@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1567796335 source:c:\users\facu\desktop\aniversario\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1568341707 source:c:\users\facu\desktop\guia ejercicios programacion\aniversario\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<conio.h>
+
+1569098272 source:c:\users\facu\desktop\aniversario programa+libro\aniversario-programa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<conio.h>
+
